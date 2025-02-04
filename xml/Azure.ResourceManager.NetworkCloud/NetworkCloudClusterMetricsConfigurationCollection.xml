@@ -79,7 +79,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Create new or update the existing metrics configuration of the provided cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/metricsConfigurations/{metricsConfigurationName}</description></item><item><term>Operation Id</term><description>MetricsConfigurations_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/metricsConfigurations/{metricsConfigurationName}</description></item><item><term>Operation Id</term><description>MetricsConfigurations_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -117,7 +117,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Create new or update the existing metrics configuration of the provided cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/metricsConfigurations/{metricsConfigurationName}</description></item><item><term>Operation Id</term><description>MetricsConfigurations_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/metricsConfigurations/{metricsConfigurationName}</description></item><item><term>Operation Id</term><description>MetricsConfigurations_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -150,7 +150,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks to see if the resource exists in azure.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/metricsConfigurations/{metricsConfigurationName}</description></item><item><term>Operation Id</term><description>MetricsConfigurations_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/metricsConfigurations/{metricsConfigurationName}</description></item><item><term>Operation Id</term><description>MetricsConfigurations_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -183,7 +183,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks to see if the resource exists in azure.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/metricsConfigurations/{metricsConfigurationName}</description></item><item><term>Operation Id</term><description>MetricsConfigurations_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/metricsConfigurations/{metricsConfigurationName}</description></item><item><term>Operation Id</term><description>MetricsConfigurations_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -216,7 +216,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get metrics configuration of the provided cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/metricsConfigurations/{metricsConfigurationName}</description></item><item><term>Operation Id</term><description>MetricsConfigurations_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/metricsConfigurations/{metricsConfigurationName}</description></item><item><term>Operation Id</term><description>MetricsConfigurations_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -247,7 +247,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a list of metrics configurations for the provided cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/metricsConfigurations</description></item><item><term>Operation Id</term><description>MetricsConfigurations_ListByCluster</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/metricsConfigurations</description></item><item><term>Operation Id</term><description>MetricsConfigurations_ListByCluster</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -274,7 +274,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a list of metrics configurations for the provided cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/metricsConfigurations</description></item><item><term>Operation Id</term><description>MetricsConfigurations_ListByCluster</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/metricsConfigurations</description></item><item><term>Operation Id</term><description>MetricsConfigurations_ListByCluster</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -303,7 +303,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get metrics configuration of the provided cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/metricsConfigurations/{metricsConfigurationName}</description></item><item><term>Operation Id</term><description>MetricsConfigurations_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/metricsConfigurations/{metricsConfigurationName}</description></item><item><term>Operation Id</term><description>MetricsConfigurations_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -336,7 +336,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Tries to get details for this resource from the service.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/metricsConfigurations/{metricsConfigurationName}</description></item><item><term>Operation Id</term><description>MetricsConfigurations_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/metricsConfigurations/{metricsConfigurationName}</description></item><item><term>Operation Id</term><description>MetricsConfigurations_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -369,7 +369,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Tries to get details for this resource from the service.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/metricsConfigurations/{metricsConfigurationName}</description></item><item><term>Operation Id</term><description>MetricsConfigurations_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/metricsConfigurations/{metricsConfigurationName}</description></item><item><term>Operation Id</term><description>MetricsConfigurations_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">

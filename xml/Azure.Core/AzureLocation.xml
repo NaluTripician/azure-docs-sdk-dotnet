@@ -30,6 +30,7 @@
     <AssemblyVersion>1.43.0.0</AssemblyVersion>
     <AssemblyVersion>1.44.0.0</AssemblyVersion>
     <AssemblyVersion>1.44.1.0</AssemblyVersion>
+    <AssemblyVersion>1.45.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -56,6 +57,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="location" Type="System.String" />
@@ -76,6 +78,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
@@ -98,6 +101,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -120,6 +124,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -142,6 +147,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -164,6 +170,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -186,6 +193,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -208,6 +216,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -230,6 +239,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -252,6 +262,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -274,6 +285,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -296,6 +308,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -318,6 +331,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -340,6 +354,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -362,6 +377,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -384,6 +400,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -406,6 +423,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -428,6 +446,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -450,6 +469,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -472,6 +492,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -494,6 +515,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -516,6 +538,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -541,6 +564,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -567,6 +591,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -598,6 +623,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -620,6 +646,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -642,6 +669,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -664,6 +692,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -686,6 +715,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -708,6 +738,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -730,6 +761,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -757,6 +789,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -779,6 +812,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -801,6 +835,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -823,6 +858,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -845,6 +881,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -867,6 +904,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -874,6 +912,28 @@
       <Docs>
         <summary>
             Public cloud location for Korea South.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MexicoCentral">
+      <MemberSignature Language="C#" Value="public static Azure.Core.AzureLocation MexicoCentral { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Core.AzureLocation MexicoCentral" />
+      <MemberSignature Language="DocId" Value="P:Azure.Core.AzureLocation.MexicoCentral" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MexicoCentral As AzureLocation" />
+      <MemberSignature Language="F#" Value="static member MexicoCentral : Azure.Core.AzureLocation" Usage="Azure.Core.AzureLocation.MexicoCentral" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Core</AssemblyName>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.AzureLocation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Public cloud location for Mexico Central.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -889,6 +949,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -911,6 +972,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -933,6 +995,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -955,6 +1018,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -977,6 +1041,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -999,6 +1064,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1027,6 +1093,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1053,6 +1120,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1079,6 +1147,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1107,6 +1176,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1129,6 +1199,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1151,6 +1222,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1173,6 +1245,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1195,6 +1268,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1217,6 +1291,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1239,6 +1314,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1246,6 +1322,28 @@
       <Docs>
         <summary>
             Public cloud location for South India.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SpainCentral">
+      <MemberSignature Language="C#" Value="public static Azure.Core.AzureLocation SpainCentral { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Core.AzureLocation SpainCentral" />
+      <MemberSignature Language="DocId" Value="P:Azure.Core.AzureLocation.SpainCentral" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SpainCentral As AzureLocation" />
+      <MemberSignature Language="F#" Value="static member SpainCentral : Azure.Core.AzureLocation" Usage="Azure.Core.AzureLocation.SpainCentral" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Core</AssemblyName>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.AzureLocation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Public cloud location for Spain Central.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1261,6 +1359,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1283,6 +1382,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1305,6 +1405,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1327,6 +1428,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1349,6 +1451,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1372,6 +1475,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1394,6 +1498,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1416,6 +1521,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1438,6 +1544,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1460,6 +1567,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1482,6 +1590,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1504,6 +1613,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1526,6 +1636,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1548,6 +1659,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1570,6 +1682,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1592,6 +1705,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1614,6 +1728,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1636,6 +1751,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1658,6 +1774,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1680,6 +1797,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1702,6 +1820,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.44.1.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>

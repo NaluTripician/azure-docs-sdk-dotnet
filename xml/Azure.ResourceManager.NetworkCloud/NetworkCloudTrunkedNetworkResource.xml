@@ -81,7 +81,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/trunkedNetworks/{trunkedNetworkName}</description></item><item><term>Operation Id</term><description>TrunkedNetworks_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/trunkedNetworks/{trunkedNetworkName}</description></item><item><term>Operation Id</term><description>TrunkedNetworks_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -114,7 +114,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/trunkedNetworks/{trunkedNetworkName}</description></item><item><term>Operation Id</term><description>TrunkedNetworks_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/trunkedNetworks/{trunkedNetworkName}</description></item><item><term>Operation Id</term><description>TrunkedNetworks_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -324,7 +324,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided trunked network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/trunkedNetworks/{trunkedNetworkName}</description></item><item><term>Operation Id</term><description>TrunkedNetworks_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/trunkedNetworks/{trunkedNetworkName}</description></item><item><term>Operation Id</term><description>TrunkedNetworks_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -351,7 +351,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided trunked network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/trunkedNetworks/{trunkedNetworkName}</description></item><item><term>Operation Id</term><description>TrunkedNetworks_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/trunkedNetworks/{trunkedNetworkName}</description></item><item><term>Operation Id</term><description>TrunkedNetworks_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -401,7 +401,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/trunkedNetworks/{trunkedNetworkName}</description></item><item><term>Operation Id</term><description>TrunkedNetworks_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/trunkedNetworks/{trunkedNetworkName}</description></item><item><term>Operation Id</term><description>TrunkedNetworks_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -432,7 +432,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/trunkedNetworks/{trunkedNetworkName}</description></item><item><term>Operation Id</term><description>TrunkedNetworks_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/trunkedNetworks/{trunkedNetworkName}</description></item><item><term>Operation Id</term><description>TrunkedNetworks_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -483,7 +483,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/trunkedNetworks/{trunkedNetworkName}</description></item><item><term>Operation Id</term><description>TrunkedNetworks_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/trunkedNetworks/{trunkedNetworkName}</description></item><item><term>Operation Id</term><description>TrunkedNetworks_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -514,7 +514,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/trunkedNetworks/{trunkedNetworkName}</description></item><item><term>Operation Id</term><description>TrunkedNetworks_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/trunkedNetworks/{trunkedNetworkName}</description></item><item><term>Operation Id</term><description>TrunkedNetworks_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -699,7 +699,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update tags associated with the provided trunked network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/trunkedNetworks/{trunkedNetworkName}</description></item><item><term>Operation Id</term><description>TrunkedNetworks_Update</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/trunkedNetworks/{trunkedNetworkName}</description></item><item><term>Operation Id</term><description>TrunkedNetworks_Update</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -730,7 +730,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update tags associated with the provided trunked network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/trunkedNetworks/{trunkedNetworkName}</description></item><item><term>Operation Id</term><description>TrunkedNetworks_Update</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/trunkedNetworks/{trunkedNetworkName}</description></item><item><term>Operation Id</term><description>TrunkedNetworks_Update</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

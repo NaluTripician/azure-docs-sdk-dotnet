@@ -39,6 +39,7 @@
     <AssemblyVersion>7.18.1.0</AssemblyVersion>
     <AssemblyVersion>7.18.2.0</AssemblyVersion>
     <AssemblyVersion>7.18.3.0</AssemblyVersion>
+    <AssemblyVersion>7.19.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -60,8 +61,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
-        <AssemblyVersion>7.18.0.0</AssemblyVersion>
         <AssemblyVersion>7.18.3.0</AssemblyVersion>
+        <AssemblyVersion>7.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -78,8 +79,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
-        <AssemblyVersion>7.18.0.0</AssemblyVersion>
         <AssemblyVersion>7.18.3.0</AssemblyVersion>
+        <AssemblyVersion>7.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusRetryPolicy</ReturnType>
@@ -104,8 +105,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
-        <AssemblyVersion>7.18.0.0</AssemblyVersion>
         <AssemblyVersion>7.18.3.0</AssemblyVersion>
+        <AssemblyVersion>7.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>
@@ -129,8 +130,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
-        <AssemblyVersion>7.18.0.0</AssemblyVersion>
         <AssemblyVersion>7.18.3.0</AssemblyVersion>
+        <AssemblyVersion>7.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>
@@ -153,8 +154,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
-        <AssemblyVersion>7.18.0.0</AssemblyVersion>
         <AssemblyVersion>7.18.3.0</AssemblyVersion>
+        <AssemblyVersion>7.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -178,8 +179,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
-        <AssemblyVersion>7.18.0.0</AssemblyVersion>
         <AssemblyVersion>7.18.3.0</AssemblyVersion>
+        <AssemblyVersion>7.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusRetryMode</ReturnType>
@@ -201,8 +202,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
-        <AssemblyVersion>7.18.0.0</AssemblyVersion>
         <AssemblyVersion>7.18.3.0</AssemblyVersion>
+        <AssemblyVersion>7.19.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>
