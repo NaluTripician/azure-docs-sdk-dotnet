@@ -33,6 +33,7 @@ azuredigitaltwinscore,[tfm=netstandard2.0]Azure.DigitalTwins.Core,1.4.0
 azureextensionsaspnetcoreconfigurationsecrets,[tfm=netstandard2.0]Azure.Extensions.AspNetCore.Configuration.Secrets,1.3.2
 azureextensionsaspnetcoredataprotectionblobs,[tfm=netstandard2.0]Azure.Extensions.AspNetCore.DataProtection.Blobs,1.4.0
 azureextensionsaspnetcoredataprotectionkeys,[tfm=netstandard2.0]Azure.Extensions.AspNetCore.DataProtection.Keys,1.3.0
+azurehealthdeidentification,[tfm=netstandard2.0]Azure.Health.Deidentification,1.0.0
 azurehealthinsightsradiologyinsights,[tfm=netstandard2.0]Azure.Health.Insights.RadiologyInsights,1.0.0
 azureidentity,[tfm=netstandard2.0]Azure.Identity,1.13.2
 azureidentitybroker,[tfm=netstandard2.0]Azure.Identity.Broker,1.2.0
