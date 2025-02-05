@@ -1,7 +1,7 @@
 ---
 title: Azure Maps Common client library for .NET
 keywords: Azure, dotnet, SDK, API, Azure.Maps.Common, maps
-ms.date: 07/13/2023
+ms.date: 02/05/2025
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: maps
@@ -13,7 +13,7 @@ Azure Maps is a Microsoft-managed service providing maps service that is...
 
 The Azure.Maps.Common library provides infrastructure shared across other Azure Maps client libraries.
 
-[Source code](https://github.com/Azure/azure-sdk-for-net/tree/Azure.Maps.Common_1.0.0-beta.4/sdk/maps/Azure.Maps.Common/src) | [API reference documentation](/rest/api/maps/) | [Product documentation](/azure/azure-maps)
+[Source code](https://github.com/Azure/azure-sdk-for-net/tree/Azure.Maps.Common_1.0.0-beta.4/sdk/maps/Azure.Maps.Common/src) | [API reference documentation](https://learn.microsoft.com/rest/api/maps/) | [Product documentation](https://learn.microsoft.com/azure/azure-maps)
 
 ## Getting started
 
@@ -30,7 +30,7 @@ dotnet add package Azure.Maps.Geolocation --prerelease
 
 ### Prerequisites
 
-> You must have an [Azure subscription](https://azure.microsoft.com/free/dotnet/) and [Azure Maps account](/azure/azure-maps/quick-demo-map-app#create-an-azure-maps-account).
+> You must have an [Azure subscription](https://azure.microsoft.com/free/dotnet/) and [Azure Maps account](https://learn.microsoft.com/azure/azure-maps/quick-demo-map-app#create-an-azure-maps-account).
 
 To create a new Azure Maps account, you can use the Azure Portal, Azure PowerShell, or the Azure CLI. Here's an example using the Azure CLI:
 
@@ -58,7 +58,7 @@ We guarantee that all client instance methods are thread-safe and independent of
 [Long-running operations](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.Common_1.0.0-beta.4/sdk/core/Azure.Core/README.md#consuming-long-running-operations-using-operationt) |
 [Handling failures](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.Common_1.0.0-beta.4/sdk/core/Azure.Core/README.md#reporting-errors-requestfailedexception) |
 [Diagnostics](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.Common_1.0.0-beta.4/sdk/core/Azure.Core/samples/Diagnostics.md) |
-[Mocking](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Maps.Common_1.0.0-beta.4/sdk/core/Azure.Core/README.md#mocking) |
+[Mocking](https://learn.microsoft.com/dotnet/azure/sdk/unit-testing-mocking) |
 [Client lifetime](https://devblogs.microsoft.com/azure-sdk/lifetime-management-and-thread-safety-guarantees-of-azure-sdk-net-clients/)
 <!-- CLIENT COMMON BAR -->
 
