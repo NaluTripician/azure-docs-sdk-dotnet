@@ -1,30 +1,27 @@
 <Type Name="NetworkCloudVirtualMachineResource" FullName="Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource">
-  <TypeSignature Language="C#" Value="public class NetworkCloudVirtualMachineResource : Azure.ResourceManager.ArmResource" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NetworkCloudVirtualMachineResource extends Azure.ResourceManager.ArmResource" FrameworkAlternate="azure-dotnet" />
+  <TypeSignature Language="C#" Value="public class NetworkCloudVirtualMachineResource : Azure.ResourceManager.ArmResource, System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineData&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineData&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NetworkCloudVirtualMachineResource extends Azure.ResourceManager.ArmResource implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineData&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineData&gt;" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" />
-  <TypeSignature Language="VB.NET" Value="Public Class NetworkCloudVirtualMachineResource&#xA;Inherits ArmResource" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="F#" Value="type NetworkCloudVirtualMachineResource = class&#xA;    inherit ArmResource" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="C#" Value="public class NetworkCloudVirtualMachineResource : Azure.ResourceManager.ArmResource, System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineData&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineData&gt;" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NetworkCloudVirtualMachineResource extends Azure.ResourceManager.ArmResource implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineData&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineData&gt;" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="VB.NET" Value="Public Class NetworkCloudVirtualMachineResource&#xA;Inherits ArmResource&#xA;Implements IJsonModel(Of NetworkCloudVirtualMachineData), IPersistableModel(Of NetworkCloudVirtualMachineData)" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="F#" Value="type NetworkCloudVirtualMachineResource = class&#xA;    inherit ArmResource&#xA;    interface IJsonModel&lt;NetworkCloudVirtualMachineData&gt;&#xA;    interface IPersistableModel&lt;NetworkCloudVirtualMachineData&gt;" FrameworkAlternate="azure-dotnet-preview" />
+  <TypeSignature Language="VB.NET" Value="Public Class NetworkCloudVirtualMachineResource&#xA;Inherits ArmResource&#xA;Implements IJsonModel(Of NetworkCloudVirtualMachineData), IPersistableModel(Of NetworkCloudVirtualMachineData)" />
+  <TypeSignature Language="F#" Value="type NetworkCloudVirtualMachineResource = class&#xA;    inherit ArmResource&#xA;    interface IJsonModel&lt;NetworkCloudVirtualMachineData&gt;&#xA;    interface IPersistableModel&lt;NetworkCloudVirtualMachineData&gt;" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
   </Base>
   <Interfaces>
-    <Interface FrameworkAlternate="azure-dotnet-preview">
+    <Interface>
       <InterfaceName>System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineData&gt;</InterfaceName>
     </Interface>
-    <Interface FrameworkAlternate="azure-dotnet-preview">
+    <Interface>
       <InterfaceName>System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineData&gt;</InterfaceName>
     </Interface>
-    <Interface FrameworkAlternate="azure-dotnet-preview">
+    <Interface>
       <InterfaceName>System.ClientModel.Primitives.IPersistableModel&lt;T&gt;</InterfaceName>
     </Interface>
   </Interfaces>
@@ -46,8 +43,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -64,8 +61,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource&gt;</ReturnType>
@@ -81,7 +78,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -97,8 +94,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource&gt;&gt;</ReturnType>
@@ -114,7 +111,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -130,8 +127,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -159,8 +156,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineData</ReturnType>
@@ -181,11 +178,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet-preview">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -217,11 +214,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet-preview">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -254,13 +251,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.NetworkCloud.Models.NetworkCloudOperationStatusResult&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="waitUntil" Type="Azure.WaitUntil" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="waitUntil">
@@ -283,13 +281,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.NetworkCloud.Models.NetworkCloudOperationStatusResult&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="waitUntil" Type="Azure.WaitUntil" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="waitUntil">
@@ -311,8 +310,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource&gt;</ReturnType>
@@ -324,7 +323,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -338,8 +337,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource&gt;&gt;</ReturnType>
@@ -351,7 +350,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -365,8 +364,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineConsoleResource&gt;</ReturnType>
@@ -380,7 +379,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided virtual machine console.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}/consoles/{consoleName}</description></item><item><term>Operation Id</term><description>Consoles_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineConsoleResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}/consoles/{consoleName}</description></item><item><term>Operation Id</term><description>Consoles_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineConsoleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -398,8 +397,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineConsoleResource&gt;&gt;</ReturnType>
@@ -413,7 +412,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided virtual machine console.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}/consoles/{consoleName}</description></item><item><term>Operation Id</term><description>Consoles_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineConsoleResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}/consoles/{consoleName}</description></item><item><term>Operation Id</term><description>Consoles_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineConsoleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -431,8 +430,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineConsoleCollection</ReturnType>
@@ -453,8 +452,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -474,8 +473,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.NetworkCloud.Models.NetworkCloudOperationStatusResult&gt;</ReturnType>
@@ -492,7 +491,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Power off the provided virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}/powerOff</description></item><item><term>Operation Id</term><description>VirtualMachines_PowerOff</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}/powerOff</description></item><item><term>Operation Id</term><description>VirtualMachines_PowerOff</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -506,8 +505,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.NetworkCloud.Models.NetworkCloudOperationStatusResult&gt;&gt;</ReturnType>
@@ -524,7 +523,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Power off the provided virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}/powerOff</description></item><item><term>Operation Id</term><description>VirtualMachines_PowerOff</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}/powerOff</description></item><item><term>Operation Id</term><description>VirtualMachines_PowerOff</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -538,8 +537,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.NetworkCloud.Models.NetworkCloudOperationStatusResult&gt;</ReturnType>
@@ -554,7 +553,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Reimage the provided virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}/reimage</description></item><item><term>Operation Id</term><description>VirtualMachines_Reimage</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}/reimage</description></item><item><term>Operation Id</term><description>VirtualMachines_Reimage</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -568,8 +567,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.NetworkCloud.Models.NetworkCloudOperationStatusResult&gt;&gt;</ReturnType>
@@ -584,7 +583,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Reimage the provided virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}/reimage</description></item><item><term>Operation Id</term><description>VirtualMachines_Reimage</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}/reimage</description></item><item><term>Operation Id</term><description>VirtualMachines_Reimage</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -598,8 +597,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource&gt;</ReturnType>
@@ -613,7 +612,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -629,8 +628,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource&gt;&gt;</ReturnType>
@@ -644,7 +643,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -660,8 +659,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -680,8 +679,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.NetworkCloud.Models.NetworkCloudOperationStatusResult&gt;</ReturnType>
@@ -696,7 +695,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Restart the provided virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}/restart</description></item><item><term>Operation Id</term><description>VirtualMachines_Restart</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}/restart</description></item><item><term>Operation Id</term><description>VirtualMachines_Restart</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -710,8 +709,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.NetworkCloud.Models.NetworkCloudOperationStatusResult&gt;&gt;</ReturnType>
@@ -726,7 +725,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Restart the provided virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}/restart</description></item><item><term>Operation Id</term><description>VirtualMachines_Restart</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}/restart</description></item><item><term>Operation Id</term><description>VirtualMachines_Restart</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -740,8 +739,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource&gt;</ReturnType>
@@ -755,7 +754,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -771,8 +770,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource&gt;&gt;</ReturnType>
@@ -786,7 +785,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -802,8 +801,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.NetworkCloud.Models.NetworkCloudOperationStatusResult&gt;</ReturnType>
@@ -818,7 +817,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Start the provided virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}/start</description></item><item><term>Operation Id</term><description>VirtualMachines_Start</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}/start</description></item><item><term>Operation Id</term><description>VirtualMachines_Start</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -832,8 +831,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.NetworkCloud.Models.NetworkCloudOperationStatusResult&gt;&gt;</ReturnType>
@@ -848,7 +847,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Start the provided virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}/start</description></item><item><term>Operation Id</term><description>VirtualMachines_Start</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}/start</description></item><item><term>Operation Id</term><description>VirtualMachines_Start</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -866,13 +865,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="reader">The <see cref="T:System.Text.Json.Utf8JsonReader" /> to read.</param>
@@ -898,13 +898,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="writer">The <see cref="T:System.Text.Json.Utf8JsonWriter" /> to write into.</param>
@@ -929,13 +930,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="data" Type="System.BinaryData" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="data" Type="System.BinaryData" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="data">The <see cref="T:System.BinaryData" /> to parse.</param>
@@ -961,12 +963,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to consider when serializing and deserializing the model.</param>
@@ -990,12 +993,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to use.</param>
@@ -1016,8 +1020,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource&gt;</ReturnType>
@@ -1034,7 +1038,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Patch the properties of the provided virtual machine, or update the tags associated with the virtual machine. Properties and tag updates can be done independently.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Update</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Update</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1050,8 +1054,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource&gt;&gt;</ReturnType>
@@ -1068,7 +1072,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Patch the properties of the provided virtual machine, or update the tags associated with the virtual machine. Properties and tag updates can be done independently.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Update</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Update</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

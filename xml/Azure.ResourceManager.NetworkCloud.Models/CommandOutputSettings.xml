@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -36,6 +37,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -44,18 +46,19 @@
       </Docs>
     </Member>
     <Member MemberName="AssociatedIdentity">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetworkCloud.Models.IdentitySelector AssociatedIdentity { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.NetworkCloud.Models.IdentitySelector AssociatedIdentity" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.NetworkCloud.Models.ManagedServiceIdentitySelector AssociatedIdentity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.NetworkCloud.Models.ManagedServiceIdentitySelector AssociatedIdentity" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.NetworkCloud.Models.CommandOutputSettings.AssociatedIdentity" />
-      <MemberSignature Language="VB.NET" Value="Public Property AssociatedIdentity As IdentitySelector" />
-      <MemberSignature Language="F#" Value="member this.AssociatedIdentity : Azure.ResourceManager.NetworkCloud.Models.IdentitySelector with get, set" Usage="Azure.ResourceManager.NetworkCloud.Models.CommandOutputSettings.AssociatedIdentity" />
+      <MemberSignature Language="VB.NET" Value="Public Property AssociatedIdentity As ManagedServiceIdentitySelector" />
+      <MemberSignature Language="F#" Value="member this.AssociatedIdentity : Azure.ResourceManager.NetworkCloud.Models.ManagedServiceIdentitySelector with get, set" Usage="Azure.ResourceManager.NetworkCloud.Models.CommandOutputSettings.AssociatedIdentity" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetworkCloud.Models.IdentitySelector</ReturnType>
+        <ReturnType>Azure.ResourceManager.NetworkCloud.Models.ManagedServiceIdentitySelector</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The selection of the managed identity to use with this storage account container. The identity type must be either system assigned or user assigned. </summary>
@@ -73,6 +76,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -93,6 +97,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -121,6 +126,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.Models.CommandOutputSettings</ReturnType>
@@ -153,6 +159,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -184,6 +191,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.Models.CommandOutputSettings</ReturnType>
@@ -216,6 +224,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -245,6 +254,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>

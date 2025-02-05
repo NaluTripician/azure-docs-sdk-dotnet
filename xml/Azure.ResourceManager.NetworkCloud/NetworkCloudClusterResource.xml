@@ -1,30 +1,27 @@
 <Type Name="NetworkCloudClusterResource" FullName="Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource">
-  <TypeSignature Language="C#" Value="public class NetworkCloudClusterResource : Azure.ResourceManager.ArmResource" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NetworkCloudClusterResource extends Azure.ResourceManager.ArmResource" FrameworkAlternate="azure-dotnet" />
+  <TypeSignature Language="C#" Value="public class NetworkCloudClusterResource : Azure.ResourceManager.ArmResource, System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudClusterData&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudClusterData&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NetworkCloudClusterResource extends Azure.ResourceManager.ArmResource implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.ResourceManager.NetworkCloud.NetworkCloudClusterData&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.ResourceManager.NetworkCloud.NetworkCloudClusterData&gt;" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" />
-  <TypeSignature Language="VB.NET" Value="Public Class NetworkCloudClusterResource&#xA;Inherits ArmResource" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="F#" Value="type NetworkCloudClusterResource = class&#xA;    inherit ArmResource" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="C#" Value="public class NetworkCloudClusterResource : Azure.ResourceManager.ArmResource, System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudClusterData&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudClusterData&gt;" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NetworkCloudClusterResource extends Azure.ResourceManager.ArmResource implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.ResourceManager.NetworkCloud.NetworkCloudClusterData&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.ResourceManager.NetworkCloud.NetworkCloudClusterData&gt;" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="VB.NET" Value="Public Class NetworkCloudClusterResource&#xA;Inherits ArmResource&#xA;Implements IJsonModel(Of NetworkCloudClusterData), IPersistableModel(Of NetworkCloudClusterData)" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="F#" Value="type NetworkCloudClusterResource = class&#xA;    inherit ArmResource&#xA;    interface IJsonModel&lt;NetworkCloudClusterData&gt;&#xA;    interface IPersistableModel&lt;NetworkCloudClusterData&gt;" FrameworkAlternate="azure-dotnet-preview" />
+  <TypeSignature Language="VB.NET" Value="Public Class NetworkCloudClusterResource&#xA;Inherits ArmResource&#xA;Implements IJsonModel(Of NetworkCloudClusterData), IPersistableModel(Of NetworkCloudClusterData)" />
+  <TypeSignature Language="F#" Value="type NetworkCloudClusterResource = class&#xA;    inherit ArmResource&#xA;    interface IJsonModel&lt;NetworkCloudClusterData&gt;&#xA;    interface IPersistableModel&lt;NetworkCloudClusterData&gt;" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
   </Base>
   <Interfaces>
-    <Interface FrameworkAlternate="azure-dotnet-preview">
+    <Interface>
       <InterfaceName>System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudClusterData&gt;</InterfaceName>
     </Interface>
-    <Interface FrameworkAlternate="azure-dotnet-preview">
+    <Interface>
       <InterfaceName>System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudClusterData&gt;</InterfaceName>
     </Interface>
-    <Interface FrameworkAlternate="azure-dotnet-preview">
+    <Interface>
       <InterfaceName>System.ClientModel.Primitives.IPersistableModel&lt;T&gt;</InterfaceName>
     </Interface>
   </Interfaces>
@@ -46,8 +43,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -64,8 +61,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource&gt;</ReturnType>
@@ -81,7 +78,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -97,8 +94,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource&gt;&gt;</ReturnType>
@@ -114,7 +111,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -131,14 +128,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.NetworkCloud.Models.NetworkCloudOperationStatusResult&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="waitUntil" Type="Azure.WaitUntil" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="content" Type="Azure.ResourceManager.NetworkCloud.Models.ClusterContinueUpdateVersionContent" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="content" Type="Azure.ResourceManager.NetworkCloud.Models.ClusterContinueUpdateVersionContent" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="waitUntil">
@@ -147,7 +145,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Trigger the continuation of an update for a cluster with a matching update strategy that has paused after completing a segment of the update.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/continueUpdateVersion</description></item><item><term>Operation Id</term><description>Clusters_ContinueUpdateVersion</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/continueUpdateVersion</description></item><item><term>Operation Id</term><description>Clusters_ContinueUpdateVersion</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -164,14 +162,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.NetworkCloud.Models.NetworkCloudOperationStatusResult&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="waitUntil" Type="Azure.WaitUntil" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="content" Type="Azure.ResourceManager.NetworkCloud.Models.ClusterContinueUpdateVersionContent" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="content" Type="Azure.ResourceManager.NetworkCloud.Models.ClusterContinueUpdateVersionContent" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="waitUntil">
@@ -180,7 +179,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Trigger the continuation of an update for a cluster with a matching update strategy that has paused after completing a segment of the update.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/continueUpdateVersion</description></item><item><term>Operation Id</term><description>Clusters_ContinueUpdateVersion</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/continueUpdateVersion</description></item><item><term>Operation Id</term><description>Clusters_ContinueUpdateVersion</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -196,8 +195,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -225,8 +224,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudClusterData</ReturnType>
@@ -247,11 +246,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet-preview">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -283,11 +282,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet-preview">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -320,13 +319,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.NetworkCloud.Models.NetworkCloudOperationStatusResult&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="waitUntil" Type="Azure.WaitUntil" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="waitUntil">
@@ -349,13 +349,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.NetworkCloud.Models.NetworkCloudOperationStatusResult&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="waitUntil" Type="Azure.WaitUntil" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="waitUntil">
@@ -377,8 +378,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.NetworkCloud.Models.NetworkCloudOperationStatusResult&gt;</ReturnType>
@@ -395,7 +396,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deploy the cluster using the rack configuration provided during creation.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/deploy</description></item><item><term>Operation Id</term><description>Clusters_Deploy</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/deploy</description></item><item><term>Operation Id</term><description>Clusters_Deploy</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -409,8 +410,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.NetworkCloud.Models.NetworkCloudOperationStatusResult&gt;&gt;</ReturnType>
@@ -427,7 +428,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deploy the cluster using the rack configuration provided during creation.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/deploy</description></item><item><term>Operation Id</term><description>Clusters_Deploy</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/deploy</description></item><item><term>Operation Id</term><description>Clusters_Deploy</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -441,8 +442,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource&gt;</ReturnType>
@@ -454,7 +455,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -468,8 +469,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource&gt;&gt;</ReturnType>
@@ -481,7 +482,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -495,8 +496,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudBareMetalMachineKeySetResource&gt;</ReturnType>
@@ -510,7 +511,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get bare metal machine key set of the provided cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/bareMetalMachineKeySets/{bareMetalMachineKeySetName}</description></item><item><term>Operation Id</term><description>BareMetalMachineKeySets_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudBareMetalMachineKeySetResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/bareMetalMachineKeySets/{bareMetalMachineKeySetName}</description></item><item><term>Operation Id</term><description>BareMetalMachineKeySets_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudBareMetalMachineKeySetResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -528,8 +529,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudBareMetalMachineKeySetResource&gt;&gt;</ReturnType>
@@ -543,7 +544,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get bare metal machine key set of the provided cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/bareMetalMachineKeySets/{bareMetalMachineKeySetName}</description></item><item><term>Operation Id</term><description>BareMetalMachineKeySets_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudBareMetalMachineKeySetResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/bareMetalMachineKeySets/{bareMetalMachineKeySetName}</description></item><item><term>Operation Id</term><description>BareMetalMachineKeySets_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudBareMetalMachineKeySetResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -561,8 +562,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudBareMetalMachineKeySetCollection</ReturnType>
@@ -583,8 +584,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudBmcKeySetResource&gt;</ReturnType>
@@ -598,7 +599,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get baseboard management controller key set of the provided cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/bmcKeySets/{bmcKeySetName}</description></item><item><term>Operation Id</term><description>BmcKeySets_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudBmcKeySetResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/bmcKeySets/{bmcKeySetName}</description></item><item><term>Operation Id</term><description>BmcKeySets_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudBmcKeySetResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -616,8 +617,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudBmcKeySetResource&gt;&gt;</ReturnType>
@@ -631,7 +632,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get baseboard management controller key set of the provided cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/bmcKeySets/{bmcKeySetName}</description></item><item><term>Operation Id</term><description>BmcKeySets_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudBmcKeySetResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/bmcKeySets/{bmcKeySetName}</description></item><item><term>Operation Id</term><description>BmcKeySets_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudBmcKeySetResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -649,8 +650,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudBmcKeySetCollection</ReturnType>
@@ -671,8 +672,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource&gt;</ReturnType>
@@ -686,7 +687,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get metrics configuration of the provided cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/metricsConfigurations/{metricsConfigurationName}</description></item><item><term>Operation Id</term><description>MetricsConfigurations_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/metricsConfigurations/{metricsConfigurationName}</description></item><item><term>Operation Id</term><description>MetricsConfigurations_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -704,8 +705,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource&gt;&gt;</ReturnType>
@@ -719,7 +720,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get metrics configuration of the provided cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/metricsConfigurations/{metricsConfigurationName}</description></item><item><term>Operation Id</term><description>MetricsConfigurations_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/metricsConfigurations/{metricsConfigurationName}</description></item><item><term>Operation Id</term><description>MetricsConfigurations_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -737,8 +738,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationCollection</ReturnType>
@@ -759,8 +760,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -780,8 +781,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource&gt;</ReturnType>
@@ -795,7 +796,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -811,8 +812,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource&gt;&gt;</ReturnType>
@@ -826,7 +827,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -842,8 +843,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -863,14 +864,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.NetworkCloud.Models.NetworkCloudOperationStatusResult&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="waitUntil" Type="Azure.WaitUntil" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="content" Type="Azure.ResourceManager.NetworkCloud.Models.ClusterScanRuntimeContent" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="content" Type="Azure.ResourceManager.NetworkCloud.Models.ClusterScanRuntimeContent" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="waitUntil">
@@ -879,7 +881,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Triggers the execution of a runtime protection scan to detect and remediate detected issues, in accordance with the cluster configuration.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/scanRuntime</description></item><item><term>Operation Id</term><description>Clusters_ScanRuntime</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/scanRuntime</description></item><item><term>Operation Id</term><description>Clusters_ScanRuntime</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -894,14 +896,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.NetworkCloud.Models.NetworkCloudOperationStatusResult&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="waitUntil" Type="Azure.WaitUntil" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="content" Type="Azure.ResourceManager.NetworkCloud.Models.ClusterScanRuntimeContent" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="content" Type="Azure.ResourceManager.NetworkCloud.Models.ClusterScanRuntimeContent" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="waitUntil">
@@ -910,7 +913,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Triggers the execution of a runtime protection scan to detect and remediate detected issues, in accordance with the cluster configuration.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/scanRuntime</description></item><item><term>Operation Id</term><description>Clusters_ScanRuntime</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/scanRuntime</description></item><item><term>Operation Id</term><description>Clusters_ScanRuntime</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -924,8 +927,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource&gt;</ReturnType>
@@ -939,7 +942,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -955,8 +958,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource&gt;&gt;</ReturnType>
@@ -970,7 +973,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -990,13 +993,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudClusterData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="reader">The <see cref="T:System.Text.Json.Utf8JsonReader" /> to read.</param>
@@ -1022,13 +1026,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="writer">The <see cref="T:System.Text.Json.Utf8JsonWriter" /> to write into.</param>
@@ -1053,13 +1058,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudClusterData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="data" Type="System.BinaryData" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="data" Type="System.BinaryData" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="data">The <see cref="T:System.BinaryData" /> to parse.</param>
@@ -1085,12 +1091,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to consider when serializing and deserializing the model.</param>
@@ -1114,12 +1121,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to use.</param>
@@ -1140,8 +1148,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource&gt;</ReturnType>
@@ -1158,7 +1166,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Patch the properties of the provided cluster, or update the tags associated with the cluster. Properties and tag updates can be done independently.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Update</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Update</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1174,8 +1182,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource&gt;&gt;</ReturnType>
@@ -1192,7 +1200,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Patch the properties of the provided cluster, or update the tags associated with the cluster. Properties and tag updates can be done independently.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Update</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Update</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1208,8 +1216,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.NetworkCloud.Models.NetworkCloudOperationStatusResult&gt;</ReturnType>
@@ -1226,7 +1234,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update the version of the provided cluster to one of the available supported versions.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/updateVersion</description></item><item><term>Operation Id</term><description>Clusters_UpdateVersion</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/updateVersion</description></item><item><term>Operation Id</term><description>Clusters_UpdateVersion</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1242,8 +1250,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.NetworkCloud.Models.NetworkCloudOperationStatusResult&gt;&gt;</ReturnType>
@@ -1260,7 +1268,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update the version of the provided cluster to one of the available supported versions.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/updateVersion</description></item><item><term>Operation Id</term><description>Clusters_UpdateVersion</description></item><item><term>Default Api Version</term><description>2024-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}/updateVersion</description></item><item><term>Operation Id</term><description>Clusters_UpdateVersion</description></item><item><term>Default Api Version</term><description>2024-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

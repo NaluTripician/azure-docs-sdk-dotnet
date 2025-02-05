@@ -35,12 +35,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="CheckpointerOptions">
-      <MemberSignature Language="C#" Value="public Azure.Storage.DataMovement.TransferCheckpointStoreOptions CheckpointerOptions { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Storage.DataMovement.TransferCheckpointStoreOptions CheckpointerOptions" />
-      <MemberSignature Language="DocId" Value="P:Azure.Storage.DataMovement.TransferManagerOptions.CheckpointerOptions" />
-      <MemberSignature Language="VB.NET" Value="Public Property CheckpointerOptions As TransferCheckpointStoreOptions" />
-      <MemberSignature Language="F#" Value="member this.CheckpointerOptions : Azure.Storage.DataMovement.TransferCheckpointStoreOptions with get, set" Usage="Azure.Storage.DataMovement.TransferManagerOptions.CheckpointerOptions" />
+    <Member MemberName="CheckpointStoreOptions">
+      <MemberSignature Language="C#" Value="public Azure.Storage.DataMovement.TransferCheckpointStoreOptions CheckpointStoreOptions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Storage.DataMovement.TransferCheckpointStoreOptions CheckpointStoreOptions" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.DataMovement.TransferManagerOptions.CheckpointStoreOptions" />
+      <MemberSignature Language="VB.NET" Value="Public Property CheckpointStoreOptions As TransferCheckpointStoreOptions" />
+      <MemberSignature Language="F#" Value="member this.CheckpointStoreOptions : Azure.Storage.DataMovement.TransferCheckpointStoreOptions with get, set" Usage="Azure.Storage.DataMovement.TransferManagerOptions.CheckpointStoreOptions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.DataMovement</AssemblyName>
@@ -51,7 +51,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Optional. Defines the options for creating a checkpointer which is used for saving
+            Optional. Defines the options for creating a checkpoint which is used for saving
             transfer state so transfers can be resumed.
             </summary>
         <value>To be added.</value>
@@ -80,24 +80,24 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="ErrorHandling">
-      <MemberSignature Language="C#" Value="public Azure.Storage.DataMovement.DataTransferErrorMode ErrorHandling { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.Storage.DataMovement.DataTransferErrorMode ErrorHandling" />
-      <MemberSignature Language="DocId" Value="P:Azure.Storage.DataMovement.TransferManagerOptions.ErrorHandling" />
-      <MemberSignature Language="VB.NET" Value="Public Property ErrorHandling As DataTransferErrorMode" />
-      <MemberSignature Language="F#" Value="member this.ErrorHandling : Azure.Storage.DataMovement.DataTransferErrorMode with get, set" Usage="Azure.Storage.DataMovement.TransferManagerOptions.ErrorHandling" />
+    <Member MemberName="ErrorMode">
+      <MemberSignature Language="C#" Value="public Azure.Storage.DataMovement.TransferErrorMode ErrorMode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.Storage.DataMovement.TransferErrorMode ErrorMode" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.DataMovement.TransferManagerOptions.ErrorMode" />
+      <MemberSignature Language="VB.NET" Value="Public Property ErrorMode As TransferErrorMode" />
+      <MemberSignature Language="F#" Value="member this.ErrorMode : Azure.Storage.DataMovement.TransferErrorMode with get, set" Usage="Azure.Storage.DataMovement.TransferManagerOptions.ErrorMode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.DataMovement</AssemblyName>
         <AssemblyVersion>12.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Storage.DataMovement.DataTransferErrorMode</ReturnType>
+        <ReturnType>Azure.Storage.DataMovement.TransferErrorMode</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
             Optional. Sets the way errors during a transfer will be handled.
-            Default is <see cref="F:Azure.Storage.DataMovement.DataTransferErrorMode.StopOnAnyFailure" />.
+            Default is <see cref="F:Azure.Storage.DataMovement.TransferErrorMode.StopOnAnyFailure" />.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -125,19 +125,19 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="ResumeProviders">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Azure.Storage.DataMovement.StorageResourceProvider&gt; ResumeProviders { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Azure.Storage.DataMovement.StorageResourceProvider&gt; ResumeProviders" />
-      <MemberSignature Language="DocId" Value="P:Azure.Storage.DataMovement.TransferManagerOptions.ResumeProviders" />
-      <MemberSignature Language="VB.NET" Value="Public Property ResumeProviders As List(Of StorageResourceProvider)" />
-      <MemberSignature Language="F#" Value="member this.ResumeProviders : System.Collections.Generic.List&lt;Azure.Storage.DataMovement.StorageResourceProvider&gt; with get, set" Usage="Azure.Storage.DataMovement.TransferManagerOptions.ResumeProviders" />
+    <Member MemberName="ProvidersForResuming">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.Storage.DataMovement.StorageResourceProvider&gt; ProvidersForResuming { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Azure.Storage.DataMovement.StorageResourceProvider&gt; ProvidersForResuming" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.DataMovement.TransferManagerOptions.ProvidersForResuming" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProvidersForResuming As IList(Of StorageResourceProvider)" />
+      <MemberSignature Language="F#" Value="member this.ProvidersForResuming : System.Collections.Generic.IList&lt;Azure.Storage.DataMovement.StorageResourceProvider&gt; with get, set" Usage="Azure.Storage.DataMovement.TransferManagerOptions.ProvidersForResuming" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.DataMovement</AssemblyName>
         <AssemblyVersion>12.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.List&lt;Azure.Storage.DataMovement.StorageResourceProvider&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IList&lt;Azure.Storage.DataMovement.StorageResourceProvider&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
