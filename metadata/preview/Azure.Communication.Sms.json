@@ -14,8 +14,8 @@
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "name": "Azure.Communication.Sms",
-    "safeName": "AzureCommunicationSms"
+    "safeName": "AzureCommunicationSms",
+    "name": "Azure.Communication.Sms"
   },
   "CIMatrixConfigs": [],
   "Namespaces": [
