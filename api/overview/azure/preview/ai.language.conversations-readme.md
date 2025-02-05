@@ -1,7 +1,7 @@
 ---
 title: Azure Cognitive Language Services Conversations client library for .NET
 keywords: Azure, dotnet, SDK, API, Azure.AI.Language.Conversations, cognitivelanguage
-ms.date: 02/04/2025
+ms.date: 02/05/2025
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: cognitivelanguage

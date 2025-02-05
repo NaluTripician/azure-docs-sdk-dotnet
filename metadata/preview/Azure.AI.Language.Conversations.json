@@ -14,8 +14,8 @@
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "safeName": "AzureAILanguageConversations",
-    "name": "Azure.AI.Language.Conversations"
+    "name": "Azure.AI.Language.Conversations",
+    "safeName": "AzureAILanguageConversations"
   },
   "CIMatrixConfigs": [],
   "Namespaces": [
