@@ -14,8 +14,8 @@
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "safeName": "AzureProvisioningCloudMachine",
-    "name": "Azure.Provisioning.CloudMachine"
+    "name": "Azure.Provisioning.CloudMachine",
+    "safeName": "AzureProvisioningCloudMachine"
   },
   "CIMatrixConfigs": [],
   "Namespaces": [

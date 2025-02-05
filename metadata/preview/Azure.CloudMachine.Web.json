@@ -14,8 +14,8 @@
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "safeName": "AzureCloudMachineWeb",
-    "name": "Azure.CloudMachine.Web"
+    "name": "Azure.CloudMachine.Web",
+    "safeName": "AzureCloudMachineWeb"
   },
   "CIMatrixConfigs": [],
   "Namespaces": [

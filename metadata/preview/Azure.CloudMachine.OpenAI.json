@@ -14,8 +14,8 @@
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "safeName": "AzureCloudMachineOpenAI",
-    "name": "Azure.CloudMachine.OpenAI"
+    "name": "Azure.CloudMachine.OpenAI",
+    "safeName": "AzureCloudMachineOpenAI"
   },
   "CIMatrixConfigs": [],
   "Namespaces": [
